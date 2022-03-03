@@ -28,6 +28,7 @@ if (student.getName().equals(name)) {
 result.add(student);
 }
 if (result.isEmpty()) {
+    // add some comment
 throw new Exception("There is no student with the given name!");
 }
 return result;
